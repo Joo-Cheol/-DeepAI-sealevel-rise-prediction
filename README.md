@@ -16,20 +16,6 @@
 
 ---
 
-## 📸 실행 화면 예시
-
-### ▶ 앱 입력 화면
-
-![입력화면 예시](https://raw.githubusercontent.com/Joo-Cheol/-DeepAI-sealevel-rise-prediction/main/images/app_input.png)
-
-### ▶ 예측 결과 출력
-
-![결과화면 예시](https://raw.githubusercontent.com/Joo-Cheol/-DeepAI-sealevel-rise-prediction/main/images/app_result.png)
-
-> 위 이미지는 Streamlit 앱 실행 결과 예시입니다.
-
----
-
 ## 🧠 사용 기술
 
 | 분류        | 기술 스택                              | 설명 |
