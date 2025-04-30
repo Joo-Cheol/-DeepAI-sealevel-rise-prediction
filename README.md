@@ -48,6 +48,7 @@
 > 이 결과는 테스트셋에 대한 성능 기준이며, 모델이 일반화된 패턴을 잘 학습했음을 보여줍니다.
 
 ---
+
 ## 추가 섷명
 
 > 본 프로젝트는 모델 구조부터 데이터 전처리, UI 구성까지 전 과정을 Python 기반으로 구현했으며,  
@@ -55,14 +56,17 @@ Streamlit을 활용해 누구나 쉽게 예측 모델을 실행하고 결과를 
 CSV 파일은 날짜 기반 데이터이며, 사용자 입력이 없는 변수는 평균값으로 자동 처리됩니다.
 
 ---
-📘 참고 자료
+
+##📘 참고 자료
 NASA Sea Level Data: https://sealevel.nasa.gov
 
 NOAA Climate Data: https://www.climate.gov
 
 Keras LSTM Guide: https://keras.io/api/layers/recurrent_layers/lstm/
+
 ---
-🙋 프로젝트 담당자
+
+## 🙋 프로젝트 담당자
 이름: 최주철
 
 GitHub: https://github.com/Joo-Cheol/-DeepAI-sealevel-rise-prediction
