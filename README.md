@@ -1,26 +1,11 @@
-# 🌊 [DeepAI] Sea Level Rise Prediction
+# 🌊 해수면 상승 예측 딥러닝 모델 (Streamlit 웹앱)
 
-해수면 상승률을 예측하는 딥러닝 기반 Streamlit 웹 애플리케이션입니다.  
-사용자는 상위 10개의 기후 변수와 월(Month)을 입력하면, 학습된 모델을 통해 GMSL(Global Mean Sea Level, 전 지구 평균 해수면 상승량)을 예측할 수 있습니다.
-
----
-
-## 📌 주요 기능
-
-- 상위 10개 입력 특성(예: 기후 변수)을 슬라이더로 조절
-- 월(Month) 선택 가능 (1~12월)
-- LSTM 모델 기반 실시간 예측
-- 예측 결과를 GMSL 수치로 출력
+이 프로젝트는 딥러닝 모델을 기반으로 기후 데이터를 분석하여  
+**GMSL (Global Mean Sea Level, 전 지구 평균 해수면)** 상승률을 예측하는 Streamlit 기반 웹 애플리케이션입니다.  
+LSTM 모델과 전처리된 데이터셋을 이용해 예측을 수행하며, 사용자가 슬라이더로 직접 주요 기후 변수들을 조정하여 예측 결과를 실시간 확인할 수 있습니다.
 
 ---
 
-## 🛠️ 사용 기술
+## 📂 폴더 구조
 
-- Python 3.x
-- TensorFlow / Keras
-- Pandas, NumPy
-- Streamlit
-
----
-
-
+DEEPLEARNING_CJC/ ├── dataset/ │ └── All_Feature_Data.csv # 예측 입력 데이터셋 (cp949 인코딩) ├── report/ │ ├── sea_report.html # 해수면 상승 분석 리포트 (HTML) │ └── [딥러닝 기반] ...hwp # 프로젝트 기술 보고서 (한글) ├── DeepLearning123.ipynb # 모델 개발 및 테스트용 노트북 ├── DeepLearning123.py # Streamlit 기반 예측 웹앱 ├── trained_model.h5 # 학습된 LSTM 모델 파일 ├── 딥러닝 산출물_20250325(최주철v0.1).pptx # 발표용 PPT
