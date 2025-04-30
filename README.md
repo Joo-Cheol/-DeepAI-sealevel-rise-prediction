@@ -67,6 +67,8 @@ Keras LSTM Guide: https://keras.io/api/layers/recurrent_layers/lstm/
 
 GitHub: https://github.com/Joo-Cheol/-DeepAI-sealevel-rise-prediction
 
+email: wnrb15@naver.com
+
 
 
 
