@@ -44,18 +44,6 @@
 
 
 ---
-### 프로젝트 구조
-
-📦 DEEPLEARNING_CJC/
-├── dataset/
-│   └── All_Feature_Data.csv         # 기후 변수 데이터셋
-├── trained_model.h5                 # 학습된 딥러닝 모델
-├── DeepLearning123.py               # Streamlit 앱 실행 파일
-├── DeepLearning123.ipynb            # Jupyter 분석 노트북
-├── report/
-│   ├── sea_report.html              # HTML 리포트
-│   └── 딥러닝 기반 보고서.hwp        # 한글 리포트
-└── README.md
 
 ---
 
