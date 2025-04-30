@@ -30,8 +30,33 @@
 
 ---
 
-## 🚀 실행 방법
+## 🧠 사용 기술
 
-### 1. 환경 설정
-```bash
-pip install streamlit tensorflow pandas numpy
+| 분류        | 기술 스택                              | 설명 |
+|-------------|------------------------------------------|------|
+| 언어        | Python 3.10                              | 전체 모델 개발 및 앱 구현 |
+| 딥러닝      | TensorFlow, Keras                        | LSTM 기반 예측 모델 학습 |
+| 데이터 처리 | Pandas, NumPy                            | 기후 데이터 로딩 및 전처리 |
+| 웹앱 UI     | Streamlit                                | 사용자 인터페이스 제공 |
+| 시각화      | Matplotlib, Seaborn (Jupyter 단계)       | 분석 및 리포트용 시각화 |
+| 모델 파일   | `.h5` 형식 (Keras SaveModel)             | 학습된 모델 저장 및 로드 |
+| 입력데이터  | `All_Feature_Data.csv` (cp949 인코딩)   | 입력용 기후 데이터셋 |
+
+
+---
+### 프로젝트 구조
+
+📦 DEEPLEARNING_CJC/
+├── dataset/
+│   └── All_Feature_Data.csv         # 기후 변수 데이터셋
+├── trained_model.h5                 # 학습된 딥러닝 모델
+├── DeepLearning123.py               # Streamlit 앱 실행 파일
+├── DeepLearning123.ipynb            # Jupyter 분석 노트북
+├── report/
+│   ├── sea_report.html              # HTML 리포트
+│   └── 딥러닝 기반 보고서.hwp        # 한글 리포트
+└── README.md
+
+---
+
+
